@@ -12,7 +12,7 @@ The following steps were done for this exercise.
 See the screenshot of the multiple linear regression model output using R to analyze the correlation of the six variables in the 'MechaCar_mpg.csv': vehicle_length, vehicle weight, spoiler_angle, ground_clearance, AWD, and mpg\.
   
 <p align="center">
-  <img width="700" height="550" src= "https://github.com/chkCreate/MechaCar_Statistical_Analysis/blob/692c05191544f61a666ad6082e5f0e02d12d5e6c/Part1_Summary.PNG" >
+  <img width="900" height="550" src= "https://github.com/chkCreate/MechaCar_Statistical_Analysis/blob/692c05191544f61a666ad6082e5f0e02d12d5e6c/Part1_Summary.PNG" >
 </p>
   
 1. Which variables/coefficients provided a non-random amount of variance to the mpg values in the dataset\?
