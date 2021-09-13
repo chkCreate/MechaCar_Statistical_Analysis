@@ -3,16 +3,16 @@
 AutosRU's newest prototype, the MechaCar, is suffering from production troubles that are blocking the manufacturing team's progress. The production data was reviewed to discover insights in manufacturing lines. 
   
 The following steps were done for this exercise.
-- Perform multiple linear regression analysis to identify which variables in the dataset predict the mpg of MechaCar prototypes \
-- Collect summary statistics on the pounds per square inch (PSI) of the suspension coils from the manufacturing lots \
-- Run t-tests to determine if the manufacturing lots are statistically different from the mean population \
+- Perform multiple linear regression analysis to identify which variables in the dataset predict the mpg of MechaCar prototypes\
+- Collect summary statistics on the pounds per square inch (PSI) of the suspension coils from the manufacturing lots\
+- Run t-tests to determine if the manufacturing lots are statistically different from the mean population\
 - Design a statistical study to compare vehicle performance of the MechaCar vehicles against vehicles from other manufacturers\.
    
 ## Linear Regression to Predict MPG
 See the screenshot of the multiple linear regression model output using R to analyze the correlation of the six variables in the 'MechaCar_mpg.csv': vehicle_length, vehicle weight, spoiler_angle, ground_clearance, AWD, and mpg\.
   
 <p align="center">
-  <img width="250" height="600" src= "https://github.com/chkCreate/PyBer_Analysis/blob/42a7abd81b37725735d720b82cca0c51f58cdb9f/Analysis/pyber_summary.PNG" >
+  <img width="250" height="600" src= "https://github.com/chkCreate/MechaCar_Statistical_Analysis/blob/692c05191544f61a666ad6082e5f0e02d12d5e6c/Part1_Summary.PNG" >
 </p>
   
 1. Which variables/coefficients provided a non-random amount of variance to the mpg values in the dataset\?
@@ -29,11 +29,11 @@ The MechaCar 'Suspension_Coil.csv' dataset contains the results from multiple pr
 See the two screenshots from my total_summary and lot_summary dataframes below\.
   
 <p align="center", title="Total_Summary">
-  <img width="250" height="600" src= "https://github.com/chkCreate/PyBer_Analysis/blob/42a7abd81b37725735d720b82cca0c51f58cdb9f/Analysis/pyber_summary.PNG" >
+  <img width="600" height="200" src= "https://github.com/chkCreate/MechaCar_Statistical_Analysis/blob/692c05191544f61a666ad6082e5f0e02d12d5e6c/Part2_total_Summary.PNG" >
 </p>
 
 <p align="center", title="lot_summary Dataframe">
-  <img width="250" height="600" src= "https://github.com/chkCreate/PyBer_Analysis/blob/42a7abd81b37725735d720b82cca0c51f58cdb9f/Analysis/pyber_summary.PNG" >
+  <img width="60" height="220" src= "https://github.com/chkCreate/MechaCar_Statistical_Analysis/blob/692c05191544f61a666ad6082e5f0e02d12d5e6c/Part2_lot_summary.PNG" >
 </p>
   
 1. The design specifications for the MechaCar suspension coils dictate that the variance of the suspension coils must not exceed 100 pounds per square inch. Does the current manufacturing data meet this design specification for all manufacturing lots in total and each lot individually? Why or why not?
