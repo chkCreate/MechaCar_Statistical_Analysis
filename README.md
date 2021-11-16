@@ -16,9 +16,11 @@ See the screenshot of the multiple linear regression model output using R to ana
 </p>
   
 1. Which variables/coefficients provided a non-random amount of variance to the mpg values in the dataset\?
+
 Pr(>|t|) values represent the probability that coefficients contribute random amounts of variance to the linear model\. According to the summary, vehicle length, ground clearance, and the intercept are statistically unlikely to provide random amounts of variance to the linear model, and therefore have significant impacts on the mpg values\.
   
 2. Is the slope of the linear model considered to be zero? Why or why not\? Does this linear model predict mpg of MechaCar prototypes effectively? Why or why not\?
+
 This multiple linear regression model predicts mpg of MechaCar prototypes effectively because the r-squared values is 0.71 and the p-value of 5.35e-11 is significant\. The r-squared calue represents how well the regression model approximates real-world data points; and the closer the value is to 1, there is a higher likelihood that the future data points would fit the linear model\. Also, the p-value is much smaller than the assumed significance level of 0.05 percent; and therefore, the null hypothesis of zero slope can be rejected\. 
   
 ## Summary Statistics on Suspension Coils
@@ -37,4 +39,5 @@ See the two screenshots from my total_summary and lot_summary dataframes below\.
 </p>
   
 1. The design specifications for the MechaCar suspension coils dictate that the variance of the suspension coils must not exceed 100 pounds per square inch. Does the current manufacturing data meet this design specification for all manufacturing lots in total and each lot individually? Why or why not?
+
 According to the 'total_summary' table, the variance of all the suspension coils do not exceed 100 psi with the variane of approxiamtely 62 psi\. However, if you analyze the variance values across the three manufacturing lots as shown in the 'lot_summary' table, you can observe that lots #1 and #2 are way below the criteria and lot #3 exceeds at a variance of 170 psi\. Therefore, lots #1 and #2 are performing successfully and lot #3 needs to be examined closely in the future to improve the variance criteria of the production\. 
